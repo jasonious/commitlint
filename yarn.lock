@@ -3666,7 +3666,15 @@ contains-path@^0.1.0:
   resolved "https://registry.npmjs.org/contains-path/-/contains-path-0.1.0.tgz#fe8cf184ff6670b6baef01a9d4861a5cbec4120a"
   integrity sha1-/ozxhP9mcLa67wGp1IYaXL7EEgo=
 
-conventional-changelog-angular@5.0.11, conventional-changelog-angular@^5.0.11:
+conventional-changelog-angular@5.0.13:
+  version "5.0.13"
+  resolved "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-5.0.13.tgz#896885d63b914a70d4934b59d2fe7bde1832b28c"
+  integrity sha512-i/gipMxs7s8L/QeuavPF2hLnJgH6pEZAttySB6aiQLWcX3puWDL3ACVmvBhJGxnAy52Qc15ua26BufY6KpmrVA==
+  dependencies:
+    compare-func "^2.0.0"
+    q "^1.5.1"
+
+conventional-changelog-angular@^5.0.11:
   version "5.0.11"
   resolved "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-5.0.11.tgz#99a3ca16e4a5305e0c2c2fae3ef74fd7631fc3fb"
   integrity sha512-nSLypht/1yEflhuTogC03i7DX7sOrXGsRn14g131Potqi6cbGbGEE9PSDEHKldabB6N76HiSyw9Ph+kLmC04Qw==
@@ -6782,7 +6790,31 @@ latest-version@^5.0.0:
   dependencies:
     package-json "^6.3.0"
 
-"lerna-v3@npm:lerna@3", lerna@^3.22.1:
+"lerna-v3@npm:lerna@3":
+  version "3.22.1"
+  resolved "https://registry.npmjs.org/lerna/-/lerna-3.22.1.tgz#82027ac3da9c627fd8bf02ccfeff806a98e65b62"
+  integrity sha512-vk1lfVRFm+UuEFA7wkLKeSF7Iz13W+N/vFd48aW2yuS7Kv0RbNm2/qcDPV863056LMfkRlsEe+QYOw3palj5Lg==
+  dependencies:
+    "@lerna/add" "3.21.0"
+    "@lerna/bootstrap" "3.21.0"
+    "@lerna/changed" "3.21.0"
+    "@lerna/clean" "3.21.0"
+    "@lerna/cli" "3.18.5"
+    "@lerna/create" "3.22.0"
+    "@lerna/diff" "3.21.0"
+    "@lerna/exec" "3.21.0"
+    "@lerna/import" "3.22.0"
+    "@lerna/info" "3.21.0"
+    "@lerna/init" "3.21.0"
+    "@lerna/link" "3.21.0"
+    "@lerna/list" "3.21.0"
+    "@lerna/publish" "3.22.1"
+    "@lerna/run" "3.21.0"
+    "@lerna/version" "3.22.1"
+    import-local "^2.0.0"
+    npmlog "^4.1.2"
+
+lerna@^3.22.1:
   version "3.22.1"
   resolved "https://registry.npmjs.org/lerna/-/lerna-3.22.1.tgz#82027ac3da9c627fd8bf02ccfeff806a98e65b62"
   integrity sha512-vk1lfVRFm+UuEFA7wkLKeSF7Iz13W+N/vFd48aW2yuS7Kv0RbNm2/qcDPV863056LMfkRlsEe+QYOw3palj5Lg==
