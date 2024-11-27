@@ -2369,9 +2369,9 @@
     "@types/yargs-parser" "*"
 
 "@types/yargs@^15.0.5":
-  version "15.0.5"
-  resolved "https://registry.npmjs.org/@types/yargs/-/yargs-15.0.5.tgz#947e9a6561483bdee9adffc983e91a6902af8b79"
-  integrity sha512-Dk/IDOPtOgubt/IaevIUbTgV7doaKkoorvOyYM2CMwuDyP89bekI7H4xLIwunNYiK9jhCkmc6pUrJk3cj2AB9w==
+  version "15.0.19"
+  resolved "https://registry.npmjs.org/@types/yargs/-/yargs-15.0.19.tgz#328fb89e46109ecbdb70c295d96ff2f46dfd01b9"
+  integrity sha512-2XUaGVmyQjgyAZldf0D0c14vvo/yv0MhQBSTJcejMMaitsn3nxCB6TmH4G0ZQf+uxROOa9mpanoSm8h6SG/1ZA==
   dependencies:
     "@types/yargs-parser" "*"
 
@@ -6782,7 +6782,31 @@ latest-version@^5.0.0:
   dependencies:
     package-json "^6.3.0"
 
-"lerna-v3@npm:lerna@3", lerna@^3.22.1:
+"lerna-v3@npm:lerna@3":
+  version "3.22.1"
+  resolved "https://registry.npmjs.org/lerna/-/lerna-3.22.1.tgz#82027ac3da9c627fd8bf02ccfeff806a98e65b62"
+  integrity sha512-vk1lfVRFm+UuEFA7wkLKeSF7Iz13W+N/vFd48aW2yuS7Kv0RbNm2/qcDPV863056LMfkRlsEe+QYOw3palj5Lg==
+  dependencies:
+    "@lerna/add" "3.21.0"
+    "@lerna/bootstrap" "3.21.0"
+    "@lerna/changed" "3.21.0"
+    "@lerna/clean" "3.21.0"
+    "@lerna/cli" "3.18.5"
+    "@lerna/create" "3.22.0"
+    "@lerna/diff" "3.21.0"
+    "@lerna/exec" "3.21.0"
+    "@lerna/import" "3.22.0"
+    "@lerna/info" "3.21.0"
+    "@lerna/init" "3.21.0"
+    "@lerna/link" "3.21.0"
+    "@lerna/list" "3.21.0"
+    "@lerna/publish" "3.22.1"
+    "@lerna/run" "3.21.0"
+    "@lerna/version" "3.22.1"
+    import-local "^2.0.0"
+    npmlog "^4.1.2"
+
+lerna@^3.22.1:
   version "3.22.1"
   resolved "https://registry.npmjs.org/lerna/-/lerna-3.22.1.tgz#82027ac3da9c627fd8bf02ccfeff806a98e65b62"
   integrity sha512-vk1lfVRFm+UuEFA7wkLKeSF7Iz13W+N/vFd48aW2yuS7Kv0RbNm2/qcDPV863056LMfkRlsEe+QYOw3palj5Lg==
